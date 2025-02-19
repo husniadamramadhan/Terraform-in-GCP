@@ -1,0 +1,17 @@
+# Direktori cache Terraform
+.terraform/
+
+# File state dan backup (berisi informasi infrastruktur yang sensitif)
+terraform.tfstate
+terraform.tfstate.backup
+
+# File logs dan crash report Terraform
+crash.log
+*.log
+
+# Variable file yang bisa berisi kredensial
+terraform.tfvars
+*.tfvars
+
+# File output dari Terraform Plan
+*.tfplan
